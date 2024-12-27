@@ -1,3 +1,3 @@
 window.addEventListener('keydown',(k)=>{
- document.getElementById('res').innerHTML=k.key+"<br>"+k.keyCode;
+ document.getElementById('res').innerHTML=' The key you entered '+" = "+k.key+"<br>"+' its ASCII code '+' = '+k.keyCode;
 })
